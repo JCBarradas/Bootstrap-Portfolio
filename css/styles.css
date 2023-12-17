@@ -7,8 +7,6 @@
 
 }
 
-
-
 /* Global styles ============= */
 html,
 body {
@@ -45,30 +43,24 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
-
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
 section {
   padding: 50px 0;
 }
-
 section h2 {
   font-size: 60px;
 }
 
 /* Navigation*/
-
 .navbar {
-    background-color: var(--pinegreen) !important;
-  
+    background-color: var(--pinegreen) !important;  
 }
 .navbar a {
-    color: white;
-    
+    color: white;    
 }
 
 /*Hero section*/
@@ -101,35 +93,23 @@ section h2 {
     height: 40px;
   }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-  color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
-}
-
-
-/*Socials*/
-#socials i {
-    font-size: 50px;
-}
-
 /* Skills Section */
 #Skills {
     background-color: var(--darkgreen) !important;
     padding-top: 1px;
 }
 
-/* Footer */
+/*Socials*/
+#socials i {
+    font-size: 50px;
+}
 
+/* Footer */
 #footer {
      background-color: var(--pinegreen) !important;
      height: 101px;
 }
 
 #footer p {
-    padding: 35px;
-    
+    padding: 35px;   
 }
