@@ -1,0 +1,135 @@
+/* Variables*/
+:root {
+    --darkgreen: #041B15;
+    --pinegreen: #136F63;
+    --lightgreen: #22AAA1;
+    --grey: #1e1d1df0;
+
+}
+
+
+
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  color: var(--grey);
+  transition: all 0.35s;
+  height: 100px;
+}
+
+a i {
+    height: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 60px;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: var(--pinegreen) !important;
+  
+}
+.navbar a {
+    color: white;
+    
+}
+
+/*Hero section*/
+.hero {
+    background-color: var(--lightgreen) !important;
+}
+.hero h1 {
+    font-size: 55px;
+}
+.hero p{
+    font-size: 20px;
+}
+
+/* work section*/
+#work {
+    background-color: white !important;
+}
+#work h2 {
+    color: var(--darkgreen);
+}
+#workgrid {
+    width: 100%;  
+}
+
+.btn {
+    border-radius: 30px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 40px;
+  }
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
+}
+
+
+/*Socials*/
+#socials i {
+    font-size: 50px;
+}
+
+/* Skills Section */
+#Skills {
+    background-color: var(--darkgreen) !important;
+    padding-top: 1px;
+}
+
+/* Footer */
+
+#footer {
+     background-color: var(--pinegreen) !important;
+     height: 101px;
+}
+
+#footer p {
+    padding: 35px;
+    
+}
